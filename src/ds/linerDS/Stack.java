@@ -1,4 +1,4 @@
-package ds;
+package ds.linerDS;
 
 class Stack<T>{
 int top;
