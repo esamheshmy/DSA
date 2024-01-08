@@ -1,4 +1,4 @@
-package ds.linerDS;
+package ds.linear;
 
 public class Queue <T> {
     Object[] ArrayQueue;

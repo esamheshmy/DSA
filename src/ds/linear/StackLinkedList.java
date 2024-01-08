@@ -1,4 +1,4 @@
-package ds.linerDS;
+package ds.linear;
 
 public class StackLinkedList<T> {
     Node top;

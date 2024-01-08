@@ -1,4 +1,4 @@
-package ds.linerDS;
+package ds.linear;
 
 public class QueueLinkedList<T> {
     NodeD Rear;

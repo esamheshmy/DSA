@@ -1,4 +1,4 @@
-package ds.linerDS;
+package ds.linear;
 
 import java.util.Arrays;
 
