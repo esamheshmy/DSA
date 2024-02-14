@@ -2,11 +2,11 @@ package ds.stack;
 
 import java.util.Arrays;
 
-public class StackDArray<T> {
+public class JavaDynamicStack<T> {
     Object[] ArrayStack;
     int size;
     int top;
-    public StackDArray(int size) {
+    public JavaDynamicStack(int size) {
         this.size=size;
         ArrayStack= new Object[this.size];
         top=-1;
