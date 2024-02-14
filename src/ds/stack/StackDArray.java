@@ -1,4 +1,4 @@
-package ds.linear;
+package ds.stack;
 
 import java.util.Arrays;
 
@@ -14,7 +14,6 @@ public class StackDArray<T> {
 
     public void push(Object newItem){
         ensureCapacity(top+2);
-
         top=top+1;
         ArrayStack[top]=newItem;
     }

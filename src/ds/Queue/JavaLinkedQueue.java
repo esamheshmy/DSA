@@ -1,14 +1,18 @@
-package ds.linear;
+package ds.Queue;
 
-public class QueueLinkedList<T> {
-    NodeD Rear;
-    NodeD Front;
-    public QueueLinkedList() {
+
+import ds.nodes.DynamicNode;
+import ds.nodes.LinkedNode;
+
+public class JavaLinkedQueue<T> {
+    LinkedNode Rear;
+    LinkedNode Front;
+    public JavaLinkedQueue() {
         Rear= null;
         Front=null;
     }
     public void Queue(Object value){
-        NodeD  newNode=new NodeD(value, null,null);
+        LinkedNode newNode=new  LinkedNode(value, null,null);
         if(Rear==null || Front==null){
             Rear=newNode;
             Front=newNode;

@@ -1,11 +1,11 @@
-package ds.linear;
+package ds.list;
 
 import java.util.Arrays;
 
-public class DynamicArray<T> {
+public class DynamicList<T> {
         Object[] data;
         int size;
-public DynamicArray() {
+public DynamicList() {
         size=0;
         data=new Object[1];
         }
@@ -29,5 +29,4 @@ public void ensureCapacity( int minCapacity){
         data= Arrays.copyOf(data, newCapacity);
         }
         }
-
         }

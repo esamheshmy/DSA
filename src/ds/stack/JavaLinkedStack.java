@@ -1,12 +1,15 @@
-package ds.linear;
+package ds.stack;
 
-public class StackLinkedList<T> {
-    Node top;
-    public StackLinkedList() {
+
+import ds.nodes.DynamicNode;
+
+public class JavaLinkedStack<T> {
+    DynamicNode top;
+    public JavaLinkedStack() {
         top= null;
     }
     public void push(Object value){
-        Node  newNode=new Node(value, null);
+        DynamicNode newNode=new  DynamicNode (value,null);
         if(top==null)
             top=newNode;
         else{
@@ -14,7 +17,7 @@ public class StackLinkedList<T> {
             top= newNode;
         }
     }
-    public T   pop(){
+    public T  pop(){
         if(top==null){
             System.out.println("stack is emplty");
             return null;

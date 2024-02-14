@@ -1,11 +1,11 @@
-package ds.linear;
+package ds.Queue;
 
-public class Queue <T> {
+public class JavaQueue<T> {
     Object[] ArrayQueue;
     int Rear;
     int Front;
     int size;
-    public Queue(int size) {
+    public JavaQueue(int size) {
         this.size=size;
         ArrayQueue= new Object[this.size];
         Front=-1;

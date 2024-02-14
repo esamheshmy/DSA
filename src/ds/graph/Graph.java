@@ -1,5 +1,4 @@
-package ds.nonlinear;
+package ds.graph;
 
 public class Graph {
 }
-2

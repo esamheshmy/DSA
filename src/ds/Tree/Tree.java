@@ -1,4 +1,4 @@
-package ds.nonlinear;
+package ds.Tree;
 
 public class Tree {
 }
