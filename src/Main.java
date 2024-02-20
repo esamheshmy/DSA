@@ -1,30 +1,18 @@
-import static algorithm.Search.binarySearch;
+import ds.Tree.Tree;
+import ds.nodes.TreeNode;
 
-import java.util.ArrayList;
-import java.util.Stack;
+class Main{
+    public static void main(String[]args){
 
-public class Main {
-    public static void main(String[] args) {
-      //  int[]ii=new int[1000];for(int i=0;i<ii.length;i++){ii[i]=i*2;}
-        //System.out.print(binarySearch(ii,50));
+        int n =1000;
+        TreeNode node =new TreeNode(0,null,null);
+        Tree tree = new Tree(node);
 
-        ArrayList<Object> ee=new ArrayList<>();
+        for(int i=0;i<n;i++){tree.add(new TreeNode(i,null,null),tree.node);}
 
-        ee.add(55);
-
-        Stack ss=new Stack<>();
-        ss.add("dd1");
-        ss.add("dd2");
-        ss.add("dd3");
-        ss.add("dd4");
-        ss.add("dd5");
-        ss.add("dd6");
-        ss.push("dd6");
-        ss.add(2,"ssssssss");
-        ss.pop();
-        System.out.print(ss);
+        System.out.print(tree.searsh(80,node));
 
 
-    }
-    
+
+        }
 }

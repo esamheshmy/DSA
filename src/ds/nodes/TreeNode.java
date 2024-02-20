@@ -1,14 +1,11 @@
 package ds.nodes;
 
-public class TreeNode {
+class TreeNode {
+    int key;
+    TreeNode left, right;
 
-    int value;
-    TreeNode left;
-    TreeNode right;
-    public TreeNode(int value, TreeNode left,
-                    TreeNode right) {
-        this.value=value;
-        this.left=left;
-        this.right=right;
+    public TreeNode(int item) {
+        key = item;
+        left = right = null;
     }
 }
